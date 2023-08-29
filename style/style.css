@@ -1,0 +1,68 @@
+*{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+body{
+    background-image: url("../img/car-6642036_1280.webp");
+    background-size: cover;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30%;
+}
+
+.container{
+    background-color: rgba(240, 248, 255, 0.438);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: .5px solid  rgba(0, 0, 0, 0);
+    width: 30%;
+    padding: 5% 5%;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+input{
+    padding: 2px 50px 2px 0;
+    border-radius: 5px;
+    margin-top: 4px;
+    border: none;
+}
+
+
+button{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(138, 135, 135);
+    padding: 5% 10%;
+    border-radius: 5px;
+    background-color: rgb(190, 187, 187);
+    margin-top: 10%;
+    transition: .8s;
+}
+
+button:hover{
+    background-color: rgb(90, 86, 86);
+}
